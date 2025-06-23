@@ -187,6 +187,14 @@
     margin-bottom: 10px;
 }
 
+.press-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 
 /* Responsive Styles */
 
@@ -216,6 +224,12 @@
             .container {
                 padding-left: 20px;
                 padding-right: 20px;
+            }
+
+
+            .press-logo-container {
+                width: 100%;
+                max-width: 600px;
             }
 }
 
@@ -263,5 +277,10 @@
             .header-links-container {
                 flex-direction: column;
                 align-items: center;
+            }
+
+            .press-logo-container {
+                
+               
             }
         }
