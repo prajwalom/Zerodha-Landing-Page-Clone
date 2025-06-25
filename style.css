@@ -73,6 +73,15 @@
 }
 
 
+.open-section {
+    display: flex;
+    align-items: center;
+}
+
+.open-h2 {
+    
+}
+
 
 /* Footer  */
 
