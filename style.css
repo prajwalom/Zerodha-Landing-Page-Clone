@@ -230,11 +230,13 @@
     box-sizing: border-box;
 }
 
-.row {
-    
+.footer-reg-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+
 }
-
-
 
 
 /* Responsive Styles */
