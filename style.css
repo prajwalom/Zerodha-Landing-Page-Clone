@@ -204,12 +204,37 @@
     width: 100%;
 }
 
+/* Press Logo Section */
+
 .demo {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 20px;
 }
+
+/* Pricing Section */
+
+.pricing-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.pricing-container {
+    position: relative;
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.row {
+    
+}
+
+
 
 
 /* Responsive Styles */
