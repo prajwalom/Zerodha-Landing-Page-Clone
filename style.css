@@ -203,6 +203,30 @@
     padding: 20px;
     width: 100%;
 }
+.footer-reg {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+
+}
+
+
+.footer-reg ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer-reg li a {
+    color: #9b9b9b;
+    padding: auto;
+    margin: auto;
+
+}
 
 /* Press Logo Section */
 
@@ -230,13 +254,6 @@
     box-sizing: border-box;
 }
 
-.footer-reg-links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-
-}
 
 
 /* Responsive Styles */
