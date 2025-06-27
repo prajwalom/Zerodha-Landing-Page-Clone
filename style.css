@@ -204,6 +204,13 @@
     width: 100%;
 }
 
+.demo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
 
 /* Responsive Styles */
 
@@ -243,6 +250,11 @@
                 padding-left: 20px;
                 padding-right: 20px;
             }
+
+            .press-img {
+                width: 100%;
+                max-width: 600px;
+            }
 }
 
 
@@ -254,8 +266,6 @@
                 grid-template-columns: 1fr 1fr;
                 gap: 30px;
             }
-        }
-
 
 
         @media (max-width: 480px) {
@@ -303,3 +313,4 @@
 
 
     
+}
