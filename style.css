@@ -8,17 +8,29 @@
     -webkit-font-smoothing: antialiased;
 }
 
+main {
+    padding-top: 60px;
+}
+
 
 /* Header */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+}
 
 .container {
     display: flex;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
     box-shadow: 2px 1px 2px #eee;
     padding-left: 0 auto;
     margin: 0 auto;
+
 }
 
 .logo-img {
