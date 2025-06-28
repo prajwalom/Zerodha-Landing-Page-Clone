@@ -25,11 +25,10 @@ header {
 .container {
     display: flex;
     justify-content: space-between;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
     box-shadow: 2px 1px 2px #eee;
-    padding-left: 0 auto;
-    margin: 0 auto;
+    
 
 }
 
