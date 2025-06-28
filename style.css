@@ -240,6 +240,10 @@
 
 }
 
+.footer-reg li a:hover {
+    color: #0066cc;
+}
+
 /* Press Logo Section */
 
 .demo {
