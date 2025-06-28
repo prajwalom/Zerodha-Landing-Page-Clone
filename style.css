@@ -1,3 +1,14 @@
+/* body */
+
+.body, html {
+    font-family: "inter",'serif';
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+
 /* Header */
 
 .container {
