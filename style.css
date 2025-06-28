@@ -223,8 +223,9 @@
 
 .footer-reg li a {
     color: #9b9b9b;
-    padding: auto;
-    margin: auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 
 }
 
@@ -299,6 +300,28 @@
                 width: 100%;
                 max-width: 600px;
             }
+
+            .footer-reg {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            .footer-reg ul {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+
+            }
+
+            .footer-reg li a {
+                color: #9b9b9b;
+                padding: auto;
+                margin: auto;
+
+            }
 }
 
 
@@ -309,6 +332,28 @@
             .footer-container {
                 grid-template-columns: 1fr 1fr;
                 gap: 30px;
+            }
+
+            .footer-reg {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            .footer-reg ul {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+
+            }
+
+            .footer-reg li a {
+                color: #9b9b9b;
+                padding: auto;
+                margin: auto;
+
             }
 
 
@@ -347,6 +392,29 @@
             .header-links-container {
                 flex-direction: column;
                 align-items: center;
+            }
+
+            .footer-reg {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            .footer-reg ul {
+                display: block;
+                justify-content: center;
+                align-items: center;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+
+            }
+
+            .footer-reg li a {
+                color: #9b9b9b;
+                padding: auto;
+                margin: auto;
+                font-size: small;
+
             }
 
             
