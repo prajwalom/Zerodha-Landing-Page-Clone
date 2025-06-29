@@ -139,7 +139,26 @@ header {
 
 }
 
-.
+.see-pricing-link {
+    text-decoration: none;
+    color: #387ed1;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+
+.see-pricing-link:hover {
+     color: black;
+}
+
+.see-pricing-link::after {
+    content: '→';
+    font-size: 1.2rem;
+}
 
 
 
