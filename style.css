@@ -160,6 +160,31 @@ header {
     font-size: 1.2rem;
 }
 
+ .pricing-features {
+            flex: 1;
+            display: flex;
+            gap: 40px;
+            align-items: flex-start;
+        }
+
+        .feature-card {
+            text-align: center;
+            flex: 1;
+        }
+
+       
+
+      
+
+    
+
+        
+
+        .feature-title {
+            font-size: 0.9rem;
+            color: #666;
+        }
+            
 
 
 
